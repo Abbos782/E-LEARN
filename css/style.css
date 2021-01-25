@@ -294,6 +294,7 @@ border-top: 2px solid rgba(0,0,0,0.3);
 	justify-content: space-between;
 }
 .students__photo{
+	position: relative;
 	width: 40%;
 }
 .students__subtext{
@@ -307,10 +308,22 @@ border-top: 2px solid rgba(0,0,0,0.3);
 
 }
 .students__subtext__photo{
+	
 	padding-top: 40px;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
+
+}
+.students__photo__box{
+	display: block;
+	position: absolute;
+	border:5px solid #ECF0FA;
+	width: 40px;
+	height: 100px;
+	z-index: 10;
+	top: -7%;
+	left: 40%;
 
 }
 .students__subtext__title{
@@ -350,7 +363,7 @@ color: rgba(0,0,0,0.6);
 .students__subtext__icons{
 	display: flex;
 	justify-content: flex-end;
-	
+
   
 }
 .students__subtext__icons button{
