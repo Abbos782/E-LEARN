@@ -369,13 +369,17 @@ color: rgba(0,0,0,0.6);
 .students__subtext__icons button{
 	border:none;
 	background-color: #fff;
+
+
 }
 .students__subtext__icons img{
-	padding: 10px 0;
-	padding-left: 40px;
-	text-align: center;
+	
+	padding: 20px;
+
 
 }
 .students__subtext__icons img:hover{
 background-color: #ECF0FB;
+
+padding: 20px;
 }
