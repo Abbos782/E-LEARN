@@ -5,7 +5,7 @@
 	list-style: none;
 }
 body{
-	background-color: rgb(255,255,255,200);
+	background-color: #FEFEFE;
 	font-family: 'Open Sans', sans-serif;
 
 }
@@ -210,7 +210,7 @@ text-align: center;
 .our__body__box{
   position: relative;
    width: 30%;
-   background-color: #fdd;
+   background-color: #fff;
    border-radius: 20px;
    
    box-shadow: 0 0 20px   rgba(0,0,0,0.1);
@@ -303,7 +303,7 @@ border-top: 2px solid rgba(0,0,0,0.3);
 }
 .students__title{
 	padding: 20px 0;
-	font-size: 30px;
+	font-size: 50px;
 
 }
 .students__subtext__photo{
@@ -313,10 +313,56 @@ border-top: 2px solid rgba(0,0,0,0.3);
 	justify-content: space-between;
 
 }
-.students__subtext__photo__title{
+.students__subtext__title{
+font-size: 50px;   
+padding: 40px 0;
+color: rgba(0,0,0,0.6);
 
 
 }
 .students__subtext__photo__text{
 
+}
+.students__subtext__profel{
+	padding: 40px 0;
+
+
+}
+.students__subtext__profel__img{
+	display: flex;
+	align-items: center;
+}
+.students__subtext__profel__name{
+	  padding-left: 30px;
+}
+.students__subtext__profel__name h2{
+	font-size: 20px;
+	color: rgba(0,0,0,0.5);
+}
+.students__subtext__profel__name p{
+	color: rgba(0,0,0,0.4);
+}
+.students__subtext__profel__text{
+	padding-top: 40px;
+	line-height: 1.8;
+	color: rgba(0,0,0,0.7);
+}
+.students__subtext__icons{
+	display: flex;
+	justify-content: flex-end;
+	
+  
+}
+.students__subtext__icons button{
+	border:none;
+	background-color: #fff;
+}
+.students__subtext__icons img{
+	padding: 10px 0;
+	padding-left: 40px;
+	text-align: center;
+
+}
+.students__subtext__icons img:hover{
+background-color: #ECF0FB;
 }
