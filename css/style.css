@@ -27,33 +27,52 @@ body{
 
 
 }
+.nav__logo{
+	display: flex;
+	align-items: center;
+}
+.nav__logo__title{
+	padding-left: 20px;
+	color: rgba(0,0,0,0.8);
+	font-size: 25px;
+
+}
 .nav__list{
 	  display: flex;
 	  align-items: center;
 
 }
 .nav__item{
-	margin-left: 20px;
+	margin-left: 30px;
 
 }
 .nav__item a{
   text-decoration: none;
-  color:rgba(0,0,0,0.5); 
+  color:rgba(0,0,0,0.5);
+  font-size: 18px;
+  font-weight: 600;
+}
+.nav__item a:hover{
+	color: rgba(0,0,0,0.9);
 }
 .nav__link__login ,.nav__link__signup{
     text-decoration: none;
      color:rgba(0,0,0,0.5);
-    
-    margin-left: 50px;
+     font-size: 18px;
+     font-weight: 600;
+     margin-left: 50px;
 }
 .nav__link__signup,.find__section__btn{
-	background-color: blue;
+	background-color: #2575E6;
 	padding: 10px 20px;
 	border-radius: 7px;
 	color: #fff;
 	text-decoration: none;
 	font-size: 16px;
 	border:none;
+}
+.nav__link__signup:hover,.find__section__btn:hover{
+	background-color: blue;
 }
 .find>.container{
 	
@@ -67,7 +86,7 @@ body{
     border:3px solid #ECF0FB;
 }
 .find__subtext{
-	width: 50%;
+	width: 60%;
 	padding:200px 70px;
 	justify-content: center;
 	align-items: center;
@@ -102,7 +121,7 @@ color: #000;
 }
 .form__input
 {
-width: 100%;
+width: 60%;
 border:none;
 padding: 20px 20px;
 border-radius: 10px 0 0 10px;
@@ -118,6 +137,9 @@ color: rgba(0,0,0,0.4);
 	font-size: 20px;
 
 }
+.form__btn:hover{
+  background-color:blue;
+}
 .find__icons{
 width: 100%;
 padding: 50px 0;
@@ -132,13 +154,13 @@ justify-content: space-between;
 
 }
 .find__icons__text{
-	font-size: 50px;
+	font-size: 30px;
 	padding-left: 25px;
 
 }
 .find__icons__span{
 	color: rgba(0,0,0,0.5);
-	font-size: 30px;
+	font-size: 20px;
 	padding-top: 5px;
 }
 .find__icons__photo{
@@ -148,7 +170,7 @@ justify-content: space-between;
 	border-radius: 50%;
 	justify-content: center;
 	align-items: center;
-	box-shadow: 10px 5px 8px #fff7af,-10px 5px 8px #fff7af;
+	box-shadow: 10px 5px 8px #F4F6FF,-10px 5px 8px #F4F6FF;
 	
 
 padding: 20px 33px;
@@ -170,7 +192,7 @@ text-align: center;
 
 }
 .our__header__title{
-padding: 20px 0;
+ 
 	font-size: 40px;
 	color: rgba(0,0,0,0.7);
 }
@@ -183,7 +205,7 @@ padding: 20px 0;
 	background-color: #728EF2;
 }
 .our__header__btn{
-	padding: 20px 30px;
+	padding: 10px 30px;
 	background-color: #fff;
 	border-radius: 10px;
 	border:none;
@@ -295,6 +317,16 @@ border-top: 2px solid rgba(0,0,0,0.3);
 .find__section__btn{
 	background-color: 
 }
+.find__section__photo{
+	position: relative;
+}
+.find__section__img{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
 
 .students{
 
@@ -525,6 +557,35 @@ color: rgba(0,0,0,0.4);
 input[type=email]{
 font-size: 25px;
 color: #000;
+}
+.footer{
+	background-color: #ECF0FB;
+	padding: 70px 0;
+}
+.footer>.container{
+	display: flex;
+	justify-content: space-between;
+}
+.footer__link{
+	font-size: 25px;
+	font-weight: 600;
+	color: rgba(0,0,0,0.7);
+}
+.footer__link:hover{
+	color: rgba(0,0,0,0.9);
+}
+.footer__list{
+
+}
+.footer__item{
+	padding-top: 30px;
+}
+.footer__item a{
+	
+	color: rgba(0,0,0,0.4);
+}
+.footer__item a:hover{
+	color: rgba(0,0,00.6);
 }
 
 
