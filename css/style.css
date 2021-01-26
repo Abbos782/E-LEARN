@@ -3,6 +3,7 @@
 	margin: 0;
 	box-sizing: border-box;
 	list-style: none;
+	text-decoration: none;
 }
 body{
 	background-color: #FEFEFE;
@@ -63,6 +64,7 @@ body{
 	background-image:url("../img/jonibek.png");
     background-size: cover;
     border-radius: 30px;
+    border:3px solid #ECF0FB;
 }
 .find__subtext{
 	width: 50%;
@@ -161,7 +163,7 @@ text-align: center;
 
 }
 .our__header__title{
-
+padding: 20px 0;
 	font-size: 40px;
 	color: rgba(0,0,0,0.7);
 }
@@ -287,9 +289,11 @@ border-top: 2px solid rgba(0,0,0,0.3);
 	background-color: 
 }
 
+.students{
 
+}
 .students>.container{
-	padding-top: 100px;
+	padding: 100px 0;
 	display: flex;
 	justify-content: space-between;
 }
@@ -373,13 +377,77 @@ color: rgba(0,0,0,0.6);
 
 }
 .students__subtext__icons img{
-	
 	padding: 20px;
-
-
 }
 .students__subtext__icons img:hover{
 background-color: #ECF0FB;
-
 padding: 20px;
+}
+
+.ourLatest{
+	padding-top: 100px;
+	background-color: #ECF0FB;
+}
+.ourLatest__header{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.ourLatest__icons{
+	display: flex;
+	align-items: center;
+
+}
+.ourLatest__icons button{
+	background-color: #ECF0FB;
+}
+.ourLatest__icons img:hover{
+	background-color: #C9D7FE;
+}
+.ourLatest__body{
+	padding: 100px 0;
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+
+}
+.ourLatest__body__box{
+	background-color: #FFFFFF;
+	width: 30%;
+	padding-bottom: 30px;
+	border-radius: 15px;
+	box-shadow: 0 10px 10px #D9DFEE;
+}
+
+.ourLatest__body__img{
+	width: 100%;
+}
+
+
+.ourLatest__body__data{
+	display: flex;
+	padding: 30px;
+}
+.ourLatest__body__item{
+    font-size: 17px;
+	color: rgba(0,0,0,0.6);
+	letter-spacing: 2;
+}
+.ourLatest__body__box__title{
+	padding:0 20px;
+	color: rgba(0,0,0,0.6);
+	font-size: 20px;
+	padding-bottom: 20px;
+
+}
+.ourLatest__body__box__link{
+
+	color:#7291B4;
+	font-style: 18px;
+	margin-left: 20px; 
+	
+	
+}
+.ourLatest__body__box__link:hover{
+	color: blue;
 }
