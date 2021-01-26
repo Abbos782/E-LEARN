@@ -86,7 +86,8 @@ body{
 	padding-bottom: 30px;
 
 }
-.find__form{
+.find__form
+{
   border-radius: 10px;
   display: flex;
   width: 100%;
@@ -95,14 +96,20 @@ body{
 ::placeholder{
 	font-size: 20px;
 }
-.form__input{
+input[type=text]{
+font-size: 25px;
+color: #000;
+}
+.form__input
+{
 width: 100%;
 border:none;
 padding: 20px 20px;
 border-radius: 10px 0 0 10px;
 color: rgba(0,0,0,0.4);
 }
-.form__btn{
+.form__btn
+{
 	border-radius: 0 10px 10px 0;
      padding: 15px 30px;
 	border:none;
@@ -413,7 +420,7 @@ padding: 20px;
 }
 .ourLatest__body__box{
 	background-color: #FFFFFF;
-	width: 30%;
+	width: 31%;
 	padding-bottom: 30px;
 	border-radius: 15px;
 	box-shadow: 0 10px 10px #D9DFEE;
@@ -436,7 +443,7 @@ padding: 20px;
 .ourLatest__body__box__title{
 	padding:0 20px;
 	color: rgba(0,0,0,0.6);
-	font-size: 20px;
+	font-size: 21px;
 	padding-bottom: 20px;
 
 }
@@ -451,3 +458,74 @@ padding: 20px;
 .ourLatest__body__box__link:hover{
 	color: blue;
 }
+.subscribe{
+	background-color: #fff;
+
+}
+.subscribe>.container{
+	margin: 0 auto;
+
+}
+.subscribe__subtext{
+	text-align: center;
+	padding: 100px 0;
+
+}
+.subscribe__title{
+   color: rgba(0,0,0,0.6);
+   font-size: 40px;
+ /*  padding: 20px 0;*/
+
+}
+.subscribe__subtext{
+	width: 100%;
+	margin: 0 auto;
+	left: 300px;
+}
+.subscribe__subtext__text{
+	padding: 30px 0;
+	margin: 0 auto;
+	width: 60%;
+	line-height: 1.8;
+	color: rgba(0,0,0,0.6);
+
+}
+.subscribe__form{
+	padding: 30px 0;
+  justify-content: center;
+  display: flex;
+  width: 100%;
+
+  
+
+ 
+
+}
+.subscribe__form__input{
+ width: 35%;
+border:none;
+padding: 20px 20px;
+border-radius: 10px 0 0 10px;
+color: rgba(0,0,0,0.4);
+  box-shadow: 0 5px 10px #D9DFdE;
+}
+.subscribe__form__btn{
+	
+	border-radius: 0 10px 10px 0;
+     padding: 15px 30px;
+	border:none;
+	background-color:#0b7dda;
+	color: #fff;
+	font-size: 20px; 
+}
+.subscribe__form__btn:hover{
+	background-color:#000;
+
+}
+input[type=email]{
+font-size: 25px;
+color: #000;
+}
+
+
+	
