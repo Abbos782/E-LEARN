@@ -674,6 +674,9 @@ color: #000;
 
 padding: 20px 33px;
 }
+.our__body__box{
+	height: 500px;
+}
 }
 @media screen and (max-width: 860px){
 	.container{
